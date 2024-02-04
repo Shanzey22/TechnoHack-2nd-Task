@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Shanzey</title>
+   
+
+<link rel="stylesheet" href="style.css">
+
+    </head>
+    <body >
+   
+      <div class="calculator">
+        <h1>CASIO</h1>
+        <div> <input type="text" id="shanzey" class="shanzey-screen" />
+         
+        </div>
+       
+   
+ <table class="basic-keys">
+
+    <tr>
+        <td><button class="a" onclick="handlekeypress('(')">(</button> </td>
+        <td><button class="a" onclick="handlekeypress(')')">) </button></td>
+        <td><button class="green equals " onclick="handlekeypress('=')">= </button></td>
+        <td><button class="b" class="del " onclick="handlekeypress('clear')">DEL</button></td>
+        <td><button class="pink ac " onclick="handlekeypress('clear')">AC</button></td>
+     </tr>
+
+  <tr>
+    <td><button onclick="handlekeypress('7')">7</button> </td>
+    <td><button onclick="handlekeypress('8')">8 </button></td>
+    <td><button onclick="handlekeypress('9')">9 </button></td>
+    <td><button class="a" onclick="handlekeypress('%')">%</button></td>
+    <td><button class="a" onclick="handlekeypress('/')">/</button></td>
+ </tr>
+
+ <tr>
+ <td><button onclick="handlekeypress('4')">4 </button></td>
+ <td><button onclick="handlekeypress('5')">5 </button></td>
+ <td><button onclick="handlekeypress('6')">6 </button></td>
+ <td><button class="a" onclick="handlekeypress('*')">x</button></td>
+ <td><button  class="a" onclick="handlekeypress('/')">&divide;</button></td>
+  </tr>
+
+  <tr>
+    <td><button  onclick="handlekeypress('1')">1 </button></td>
+    <td><button  onclick="handlekeypress('2')">2</button></td>
+    <td><button onclick="handlekeypress('3')">3 </button></td>
+    <td><button class="a" onclick="handlekeypress('+')">+</button></td>
+    <td><button class="a" onclick="handlekeypress('-')">-</button></td>
+  </tr>
+
+ 
+  <tr>
+    <td><button  onclick="handlekeypress('00')">00</button></td>
+    <td><button  onclick="handlekeypress('0')">0</button></td>
+    <td><button  onclick="handlekeypress('.')">.</button> </td>
+     <td colspan="2"><button  class="green ans enter" onclick="handlekeypress('=')" >Enter</button>
+     </td>
+</tr>
+</table>
+</div>
+<script src="script.js"></script>
+   </body>
+</html>
